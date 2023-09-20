@@ -1,0 +1,114 @@
+
+
+Version:	3.50
+CmdLine:	C:\Users\dimas\Documents\NetBeansProjects\siminwabku.exe --l4j-debug
+JNI:		No
+WOW64:		Yes
+Create mutex:	Siminwabku
+Working dir:	C:\Users\dimas\Documents\NetBeansProjects\.
+Requires JDK:	No
+Requires 64-Bit: No
+Java min ver:	
+Java max ver:	
+Substitute:	JAVA_HOME = 
+Substitute:	PATH = C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Xampp\php;C:\Users\dimas\Documents\NetBeansProjects\Siminwabku\lib\JasperReport;C:\Users\dimas\Documents\NetBeansProjects\Siminwabku\lib;C:\Users\dimas\AppData\Local\Microsoft\WindowsApps;C:\Users\dimas\AppData\Local\Programs\Microsoft VS Code\bin;D:\Xampp;C:\Users\dimas\Documents\NetBeansProjects\Siminwabku\lib;;C:\Program Files\Java\jdk-1.8\bin
+JRE paths:	;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Xampp\php;C:\Users\dimas\Documents\NetBeansProjects\Siminwabku\lib\JasperReport;C:\Users\dimas\Documents\NetBeansProjects\Siminwabku\lib;C:\Users\dimas\AppData\Local\Microsoft\WindowsApps;C:\Users\dimas\AppData\Local\Programs\Microsoft VS Code\bin;D:\Xampp;C:\Users\dimas\Documents\NetBeansProjects\Siminwabku\lib;;C:\Program Files\Java\jdk-1.8\bin
+Check launcher:	C:\Program Files\Common Files\Oracle\Java\javapath\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files (x86)\Common Files\Oracle\Java\javapath\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files (x86)\Intel\iCLS Client\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Intel\iCLS Client\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\system32\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\System32\Wbem\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\System32\WindowsPowerShell\v1.0\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Intel\Intel(R) Management Engine Components\DAL\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Intel\Intel(R) Management Engine Components\IPT\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\bin\javaw.exe (not found)
+Check launcher:	C:\WINDOWS\system32\bin\javaw.exe (not found)
+Check launcher:	C:\WINDOWS\bin\javaw.exe (not found)
+Check launcher:	C:\WINDOWS\System32\Wbem\bin\javaw.exe (not found)
+Check launcher:	C:\WINDOWS\System32\WindowsPowerShell\v1.0\bin\javaw.exe (not found)
+Check launcher:	C:\WINDOWS\System32\OpenSSH\bin\javaw.exe (not found)
+Check launcher:	D:\Xampp\php\bin\javaw.exe (not found)
+Check launcher:	C:\Users\dimas\Documents\NetBeansProjects\Siminwabku\lib\JasperReport\bin\javaw.exe (not found)
+Check launcher:	C:\Users\dimas\Documents\NetBeansProjects\Siminwabku\lib\bin\javaw.exe (not found)
+Check launcher:	C:\Users\dimas\AppData\Local\Microsoft\WindowsApps\bin\javaw.exe (not found)
+Check launcher:	C:\Users\dimas\AppData\Local\Programs\Microsoft VS Code\bin\javaw.exe (not found)
+Check launcher:	D:\Xampp\bin\javaw.exe (not found)
+Check launcher:	C:\Users\dimas\Documents\NetBeansProjects\Siminwabku\lib\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Java\jdk-1.8\bin\javaw.exe (OK)
+Version string: 1.008.000_371 / 64-Bit (OK)
+Main class:	Home
+Add classpath:	lib\commons-beanutils-1.8.2.jar
+Add classpath:	lib\commons-collections-3.2.1.jar
+Add classpath:	lib\commons-digester-2.1.jar
+Add classpath:	lib\commons-logging-1.1.jar
+Add classpath:	lib\groovy-all-2.0.1.jar
+Add classpath:	lib\iText-2.1.7.js2.jar
+Add classpath:	lib\jasperreports-5.6.0.jar
+Add classpath:	lib\org-jdesktop-layout.jar
+Add classpath:	lib\mysql-connector-j-8.0.31.jar
+Add classpath:	lib\AbsoluteLayout.jar
+Launcher:	C:\Program Files\Java\jdk-1.8\bin\javaw.exe
+Launcher args:	-classpath "C:\Users\dimas\Documents\NetBeansProjects\siminwabku.exe;lib\commons-beanutils-1.8.2.jar;lib\commons-collections-3.2.1.jar;lib\commons-digester-2.1.jar;lib\commons-logging-1.1.jar;lib\groovy-all-2.0.1.jar;lib\iText-2.1.7.js2.jar;lib\jasperreports-5.6.0.jar;lib\org-jdesktop-layout.jar;lib\mysql-connector-j-8.0.31.jar;lib\AbsoluteLayout.jar" Home
+Args length:	358/32768 chars
+Exit code:	0
+
+
+Version:	3.50
+CmdLine:	C:\Users\dimas\Documents\NetBeansProjects\siminwabku.exe --l4j-debug
+JNI:		No
+WOW64:		Yes
+Create mutex:	Siminwabku
+Working dir:	C:\Users\dimas\Documents\NetBeansProjects\.
+Requires JDK:	No
+Requires 64-Bit: No
+Java min ver:	
+Java max ver:	
+Substitute:	JAVA_HOME = 
+Substitute:	PATH = C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Xampp\php;C:\Users\dimas\Documents\NetBeansProjects\Siminwabku\lib\JasperReport;C:\Users\dimas\Documents\NetBeansProjects\Siminwabku\lib;C:\Users\dimas\AppData\Local\Microsoft\WindowsApps;C:\Users\dimas\AppData\Local\Programs\Microsoft VS Code\bin;D:\Xampp;C:\Users\dimas\Documents\NetBeansProjects\Siminwabku\lib;;C:\Program Files\Java\jdk-1.8\bin
+JRE paths:	;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Xampp\php;C:\Users\dimas\Documents\NetBeansProjects\Siminwabku\lib\JasperReport;C:\Users\dimas\Documents\NetBeansProjects\Siminwabku\lib;C:\Users\dimas\AppData\Local\Microsoft\WindowsApps;C:\Users\dimas\AppData\Local\Programs\Microsoft VS Code\bin;D:\Xampp;C:\Users\dimas\Documents\NetBeansProjects\Siminwabku\lib;;C:\Program Files\Java\jdk-1.8\bin
+Check launcher:	C:\Program Files\Common Files\Oracle\Java\javapath\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files (x86)\Common Files\Oracle\Java\javapath\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files (x86)\Intel\iCLS Client\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Intel\iCLS Client\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\system32\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\System32\Wbem\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\System32\WindowsPowerShell\v1.0\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Intel\Intel(R) Management Engine Components\DAL\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Intel\Intel(R) Management Engine Components\IPT\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\bin\javaw.exe (not found)
+Check launcher:	C:\WINDOWS\system32\bin\javaw.exe (not found)
+Check launcher:	C:\WINDOWS\bin\javaw.exe (not found)
+Check launcher:	C:\WINDOWS\System32\Wbem\bin\javaw.exe (not found)
+Check launcher:	C:\WINDOWS\System32\WindowsPowerShell\v1.0\bin\javaw.exe (not found)
+Check launcher:	C:\WINDOWS\System32\OpenSSH\bin\javaw.exe (not found)
+Check launcher:	D:\Xampp\php\bin\javaw.exe (not found)
+Check launcher:	C:\Users\dimas\Documents\NetBeansProjects\Siminwabku\lib\JasperReport\bin\javaw.exe (not found)
+Check launcher:	C:\Users\dimas\Documents\NetBeansProjects\Siminwabku\lib\bin\javaw.exe (not found)
+Check launcher:	C:\Users\dimas\AppData\Local\Microsoft\WindowsApps\bin\javaw.exe (not found)
+Check launcher:	C:\Users\dimas\AppData\Local\Programs\Microsoft VS Code\bin\javaw.exe (not found)
+Check launcher:	D:\Xampp\bin\javaw.exe (not found)
+Check launcher:	C:\Users\dimas\Documents\NetBeansProjects\Siminwabku\lib\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Java\jdk-1.8\bin\javaw.exe (OK)
+Version string: 1.008.000_371 / 64-Bit (OK)
+Main class:	Home
+Add classpath:	lib\commons-beanutils-1.8.2.jar
+Add classpath:	lib\commons-collections-3.2.1.jar
+Add classpath:	lib\commons-digester-2.1.jar
+Add classpath:	lib\commons-logging-1.1.jar
+Add classpath:	lib\groovy-all-2.0.1.jar
+Add classpath:	lib\iText-2.1.7.js2.jar
+Add classpath:	lib\jasperreports-5.6.0.jar
+Add classpath:	lib\org-jdesktop-layout.jar
+Add classpath:	lib\mysql-connector-j-8.0.31.jar
+Add classpath:	lib\AbsoluteLayout.jar
+Launcher:	C:\Program Files\Java\jdk-1.8\bin\javaw.exe
+Launcher args:	-classpath "C:\Users\dimas\Documents\NetBeansProjects\siminwabku.exe;lib\commons-beanutils-1.8.2.jar;lib\commons-collections-3.2.1.jar;lib\commons-digester-2.1.jar;lib\commons-logging-1.1.jar;lib\groovy-all-2.0.1.jar;lib\iText-2.1.7.js2.jar;lib\jasperreports-5.6.0.jar;lib\org-jdesktop-layout.jar;lib\mysql-connector-j-8.0.31.jar;lib\AbsoluteLayout.jar" Home
+Args length:	358/32768 chars
+Exit code:	0

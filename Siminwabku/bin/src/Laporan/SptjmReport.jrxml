@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="null" language="groovy" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="b5192d29-77d3-4fa7-9a43-22dfa583e534">
+	<property name="ireport.zoom" value="1.6105100000000008"/>
+	<property name="ireport.x" value="12"/>
+	<property name="ireport.y" value="292"/>
+	<queryString language="SQL">
+		<![CDATA[SELECT
+     sptjm.`namasptjm` AS sptjm_namasptjm,
+     sptjm.`pngkatsptjm` AS sptjm_pngkatsptjm,
+     sptjm.`jbatansptjm` AS sptjm_jbatansptjm,
+     sptjm.`alinea1sptjm` AS sptjm_alinea1sptjm,
+     sptjm.`alinea2sptjm` AS sptjm_alinea2sptjm,
+     sptjm.`alinea3sptjm` AS sptjm_alinea3sptjm
+FROM
+     `sptjm` sptjm]]>
+	</queryString>
+	<field name="sptjm_namasptjm" class="java.lang.String"/>
+	<field name="sptjm_pngkatsptjm" class="java.lang.String"/>
+	<field name="sptjm_jbatansptjm" class="java.lang.String"/>
+	<field name="sptjm_alinea1sptjm" class="java.lang.String"/>
+	<field name="sptjm_alinea2sptjm" class="java.lang.String"/>
+	<field name="sptjm_alinea3sptjm" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="48" splitType="Stretch">
+			<staticText>
+				<reportElement x="17" y="0" width="195" height="20" uuid="bd314ca9-c052-47e6-86d6-2d971cc0b637"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<text><![CDATA[MARKAS BESAR TNI ANGKATAN DARAT]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="17" y="19" width="195" height="20" uuid="d8ae4cd4-5098-4477-9581-af3103d64bd1"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<text><![CDATA[DIREKTORAT AJUDAN JENDERAL]]></text>
+			</staticText>
+			<line>
+				<reportElement x="17" y="40" width="195" height="1" uuid="a305916b-2a66-475b-b21a-1bd84e11e67d"/>
+			</line>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="22" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="34" splitType="Stretch">
+			<staticText>
+				<reportElement x="131" y="7" width="308" height="20" uuid="d3c03511-d389-4958-b516-7ed70dd63b7a"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[SURAT PERNYATAAN TANGGUNG JAWAB MUTLAK (SPTJM)]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="269" splitType="Stretch">
+			<staticText>
+				<reportElement x="17" y="0" width="181" height="13" uuid="85bd1957-f373-4056-93b9-cc89d1cd2a8b"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[ Yang bertanda tangan di bawah ini :]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="41" y="26" width="90" height="13" uuid="0774f4f2-cad2-4667-bc8d-8209264fa0cc"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[Nama		:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="41" y="38" width="90" height="13" uuid="1192b21b-06d2-450c-9a4f-5692e5c083f8"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[Pangkat/NRP	:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="41" y="50" width="90" height="13" uuid="dc7c3baf-15ef-4c26-9772-7db3e9b71c3b"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[Jabatan		:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="130" y="26" width="309" height="13" uuid="7aa11dbd-fb37-42b7-a18a-f1e4a4f93144"/>
+				<textFieldExpression><![CDATA[$F{sptjm_namasptjm}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="130" y="38" width="309" height="13" uuid="fad6e9f0-91a9-42f1-baa6-f1c85a56692b"/>
+				<textFieldExpression><![CDATA[$F{sptjm_pngkatsptjm}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="130" y="50" width="309" height="13" uuid="404a8eae-ded4-4e7f-9301-388cd53a2683"/>
+				<textFieldExpression><![CDATA[$F{sptjm_jbatansptjm}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="17" y="77" width="517" height="55" uuid="b42b9f36-c7f7-4205-ad8e-5e6cc7b556f0"/>
+				<textFieldExpression><![CDATA[$F{sptjm_alinea1sptjm}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="17" y="187" width="517" height="72" uuid="445075f3-9fe8-401c-b549-6a88df70b4ef"/>
+				<textFieldExpression><![CDATA[$F{sptjm_alinea3sptjm}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="17" y="131" width="517" height="57" uuid="f74399ee-8c19-4c0e-b571-a05df8b9fc09"/>
+				<textFieldExpression><![CDATA[$F{sptjm_alinea2sptjm}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="139" splitType="Stretch">
+			<staticText>
+				<reportElement x="346" y="0" width="177" height="13" uuid="5e565c68-1061-43ef-ac1a-a718378b9d45"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[Bandung,                                       20.....]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="346" y="12" width="177" height="13" uuid="4f5acbc9-21ef-4358-8a2b-2866dc6adf60"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[a.n. Kuasa Pengguna Anggaran]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="346" y="24" width="177" height="13" uuid="4df78b1c-7552-4dc0-86c3-b9ccd461cad5"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[Pejabat Pembuat Komitmen]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="346" y="36" width="177" height="13" uuid="373ca6df-8d22-4f62-b74c-f3a5df1c3a88"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[Ditajenad,]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="348" y="123" width="175" height="13" uuid="4425b601-9d16-4690-81d4-d63f2c543b63"/>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{sptjm_pngkatsptjm}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="348" y="111" width="175" height="13" uuid="f6e8b8fa-c840-40a6-9b36-91df54a92190"/>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{sptjm_namasptjm}]]></textFieldExpression>
+			</textField>
+		</band>
+	</columnFooter>
+	<pageFooter>
+		<band height="16" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="12" splitType="Stretch"/>
+	</summary>
+</jasperReport>

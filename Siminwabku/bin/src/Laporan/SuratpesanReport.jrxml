@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="null" language="groovy" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="d148a350-a91d-424c-a20e-547b2970d36c">
+	<property name="ireport.zoom" value="1.6105100000000017"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="35"/>
+	<queryString>
+		<![CDATA[SELECT
+     suratpesan.`nomorsp` AS suratpesan_nomorsp,
+     suratpesan.`lampiransp` AS suratpesan_lampiransp,
+     suratpesan.`tetasp` AS suratpesan_tetasp,
+     suratpesan.`perihalsp` AS suratpesan_perihalsp,
+     suratpesan.`kpadasp` AS suratpesan_kpadasp,
+     suratpesan.`isisp` AS suratpesan_isisp,
+     suratpesan.`namesp1` AS suratpesan_namesp1,
+     suratpesan.`namesp2` AS suratpesan_namesp2,
+     suratpesan.`pktnrpsp1` AS suratpesan_pktnrpsp1,
+     suratpesan.`pktnrpsp2` AS suratpesan_pktnrpsp2,
+     tblsuratpesan.`namabarangsp` AS tblsuratpesan_namabarangsp,
+     tblsuratpesan.`bnyaknyasp` AS tblsuratpesan_bnyaknyasp,
+     tblsuratpesan.`satuansp` AS tblsuratpesan_satuansp,
+     tblsuratpesan.`ketsp` AS tblsuratpesan_ketsp
+FROM
+     `suratpesan` suratpesan,
+     `tblsuratpesan` tblsuratpesan]]>
+	</queryString>
+	<field name="suratpesan_nomorsp" class="java.lang.String"/>
+	<field name="suratpesan_lampiransp" class="java.lang.String"/>
+	<field name="suratpesan_tetasp" class="java.lang.String"/>
+	<field name="suratpesan_perihalsp" class="java.lang.String"/>
+	<field name="suratpesan_kpadasp" class="java.lang.String"/>
+	<field name="suratpesan_isisp" class="java.lang.String"/>
+	<field name="suratpesan_namesp1" class="java.lang.String"/>
+	<field name="suratpesan_namesp2" class="java.lang.String"/>
+	<field name="suratpesan_pktnrpsp1" class="java.lang.String"/>
+	<field name="suratpesan_pktnrpsp2" class="java.lang.String"/>
+	<field name="tblsuratpesan_namabarangsp" class="java.lang.String"/>
+	<field name="tblsuratpesan_bnyaknyasp" class="java.lang.Integer"/>
+	<field name="tblsuratpesan_satuansp" class="java.lang.String"/>
+	<field name="tblsuratpesan_ketsp" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="26" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="10" width="173" height="11" uuid="f11f2a69-ed98-4641-ae0d-9920a353c4bb"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<text><![CDATA[SUBDITBINUM]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="0" width="173" height="11" uuid="655d2555-bf3f-478e-b025-b5f8c66ac65f"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<text><![CDATA[DIREKTORAT AJUDAN JENDERAL TNI AD]]></text>
+			</staticText>
+			<line>
+				<reportElement x="0" y="21" width="173" height="1" uuid="d3000c9c-4d50-4289-8b11-4df23e2c3415"/>
+			</line>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="7" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="162" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="20" width="50" height="11" uuid="4496215c-2d3f-43ea-b167-33aaf911e9fa"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<text><![CDATA[Lampiran	:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="30" width="50" height="11" uuid="d9b5f258-6158-4f5e-bb84-d6c5fa1496b0"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<text><![CDATA[Perihal	:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="10" width="50" height="11" uuid="bb61becb-ad28-4da4-aa96-27760cf94b24"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<text><![CDATA[Nomor	:]]></text>
+			</staticText>
+			<line>
+				<reportElement x="50" y="76" width="123" height="1" uuid="a32bf83d-e1e5-4f25-9c68-ecc4fff4c512"/>
+			</line>
+			<staticText>
+				<reportElement x="393" y="78" width="41" height="13" uuid="49103270-52ee-440a-8bf1-d78faaded50f"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<text><![CDATA[Kepada]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="373" y="90" width="21" height="13" uuid="1063ba56-cf38-4ef4-9167-68a0629645d4"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<text><![CDATA[Yth.]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="373" y="0" width="111" height="11" uuid="92ad999b-6d38-4bdb-aab6-d81ff6d9747d"/>
+				<textElement textAlignment="Justified">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{suratpesan_tetasp}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="49" y="10" width="124" height="11" uuid="a8cc8c94-7b3b-4550-8ff0-788734aa2a18"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{suratpesan_nomorsp}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="49" y="20" width="124" height="11" uuid="82fd8697-b3bd-47bb-b904-f4ffbf243e67"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{suratpesan_lampiransp}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="49" y="30" width="124" height="46" uuid="e3f9e69b-3afa-466b-b935-644965451cee"/>
+				<textElement textAlignment="Justified">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{suratpesan_perihalsp}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="393" y="90" width="112" height="69" uuid="a459b35c-6816-45bd-bd6d-11fad9b261ee"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{suratpesan_kpadasp}]]></textFieldExpression>
+			</textField>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="296" splitType="Stretch">
+			<textField>
+				<reportElement x="49" y="0" width="456" height="102" uuid="aef0b008-5b61-47e4-bc62-a95f7ab82fd6"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{suratpesan_isisp}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="74" y="182" width="119" height="20" uuid="06d4964f-24c9-47c0-b652-214f3e639363"/>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tblsuratpesan_namabarangsp}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="193" y="182" width="72" height="20" uuid="f380ac33-5c4b-4d2e-8bfe-1d9bc326139d"/>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tblsuratpesan_bnyaknyasp}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="265" y="182" width="89" height="20" uuid="dea6700c-9fc4-4580-a694-7c8589b2a19f"/>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tblsuratpesan_satuansp}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="354" y="182" width="119" height="20" uuid="4d2dc4d6-e750-455a-89e6-ce4d3f3aae65"/>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tblsuratpesan_ketsp}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="74" y="163" width="119" height="20" uuid="0a4412a4-e66a-4cc9-846a-20e18b84be11"/>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[NAMA BARANG]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="193" y="163" width="72" height="20" uuid="f4a2e4b1-b338-40fa-93b0-ac680e77e1f5"/>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[JML BARANG]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="265" y="163" width="89" height="20" uuid="1114444d-b79e-4f9b-be48-b5ae2ee5f9ce"/>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[SATUAN]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="354" y="163" width="119" height="20" uuid="73e690c4-3420-4ade-b1b4-0e72e6b871f0"/>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[KET]]></text>
+			</staticText>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="127" splitType="Stretch">
+			<staticText>
+				<reportElement x="387" y="0" width="118" height="13" uuid="0264641c-a674-4f30-9792-349dba6e0f22"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<text><![CDATA[a.n. Pengurus Primer Koperasi ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="387" y="12" width="118" height="13" uuid="27b8379f-2196-462f-af2c-465d21a2fe00"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<text><![CDATA[Ketua,]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="49" y="12" width="118" height="13" uuid="1b522099-93cc-49b6-afaa-7d8ba224746f"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<text><![CDATA[Penerima,]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="49" y="92" width="118" height="13" uuid="cbfa0a78-b638-43bf-ad91-a6b01fabac42"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{suratpesan_namesp1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="387" y="92" width="118" height="13" uuid="ab15a536-8d7b-4c2c-886c-f2d912eda562"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{suratpesan_namesp2}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="49" y="104" width="118" height="13" uuid="df0884ac-cba1-45d5-949a-7128ac88e917"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{suratpesan_pktnrpsp1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="387" y="104" width="118" height="13" uuid="29b51da3-e457-411d-adfa-8758aec21bbb"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{suratpesan_pktnrpsp2}]]></textFieldExpression>
+			</textField>
+		</band>
+	</columnFooter>
+	<pageFooter>
+		<band height="7" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="2" splitType="Stretch"/>
+	</summary>
+</jasperReport>

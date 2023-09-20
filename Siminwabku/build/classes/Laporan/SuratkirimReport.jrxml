@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="null" language="groovy" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="6336a2dc-bf82-40cc-8bd0-88261b0e7efb">
+	<property name="ireport.zoom" value="1.5931540885517832"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="303"/>
+	<queryString>
+		<![CDATA[SELECT
+     suratkirim.`nomorsk` AS suratkirim_nomorsk,
+     suratkirim.`klasifikasisk` AS suratkirim_klasifikasisk,
+     suratkirim.`lampiransk` AS suratkirim_lampiransk,
+     suratkirim.`tetask` AS suratkirim_tetask,
+     suratkirim.`perihalsk` AS suratkirim_perihalsk,
+     suratkirim.`kpadask` AS suratkirim_kpadask,
+     suratkirim.`judulsk` AS suratkirim_judulsk,
+     suratkirim.`namesk1` AS suratkirim_namesk1,
+     suratkirim.`namesk2` AS suratkirim_namesk2,
+     suratkirim.`pktnrpsk1` AS suratkirim_pktnrpsk1,
+     suratkirim.`pktnrpsk2` AS suratkirim_pktnrpsk2,
+     tblsuratkirim.`namabarangsk` AS tblsuratkirim_namabarangsk,
+     tblsuratkirim.`bnyaknyask` AS tblsuratkirim_bnyaknyask,
+     tblsuratkirim.`satuansk` AS tblsuratkirim_satuansk,
+     tblsuratkirim.`ketsk` AS tblsuratkirim_ketsk
+FROM
+     `suratkirim` suratkirim,
+     `tblsuratkirim` tblsuratkirim]]>
+	</queryString>
+	<field name="suratkirim_nomorsk" class="java.lang.String"/>
+	<field name="suratkirim_klasifikasisk" class="java.lang.String"/>
+	<field name="suratkirim_lampiransk" class="java.lang.String"/>
+	<field name="suratkirim_tetask" class="java.lang.String"/>
+	<field name="suratkirim_perihalsk" class="java.lang.String"/>
+	<field name="suratkirim_kpadask" class="java.lang.String"/>
+	<field name="suratkirim_judulsk" class="java.lang.String"/>
+	<field name="suratkirim_namesk1" class="java.lang.String"/>
+	<field name="suratkirim_namesk2" class="java.lang.String"/>
+	<field name="suratkirim_pktnrpsk1" class="java.lang.String"/>
+	<field name="suratkirim_pktnrpsk2" class="java.lang.String"/>
+	<field name="tblsuratkirim_namabarangsk" class="java.lang.String"/>
+	<field name="tblsuratkirim_bnyaknyask" class="java.lang.Integer"/>
+	<field name="tblsuratkirim_satuansk" class="java.lang.String"/>
+	<field name="tblsuratkirim_ketsk" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="82" splitType="Stretch">
+			<image>
+				<reportElement x="39" y="0" width="73" height="79" uuid="ad3864cd-bdea-436b-a500-b9aad1352fa7"/>
+				<imageExpression><![CDATA["C:\\Users\\dimas\\Documents\\NetBeansProjects\\Siminwabku\\src\\Background\\logo-koperasi-kartika-1.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="98" y="21" width="378" height="16" uuid="3769814c-4f71-447e-bccb-575ea1cebb9a"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[VIJAYA KUSUMA]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="98" y="36" width="378" height="11" uuid="d1f0fa9b-99be-425f-a490-087faf6f7adf"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Hak Badan Hukum Nomor 248/BH/IX-19/12-67 Tanggal 15 Desember 1968]]></text>
+			</staticText>
+			<line>
+				<reportElement x="0" y="80" width="555" height="1" uuid="7a40b60e-be65-4fa9-830f-38dab09a5861"/>
+			</line>
+			<staticText>
+				<reportElement x="98" y="46" width="378" height="10" uuid="8715d919-83ec-42d0-a4d8-a0b721fe700b"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Pengesahan PAD Nomor 15/PAD/XIII.23/VII/KUKM dan Perindag/2011 Tanggal 20 Juli 2011]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="98" y="5" width="378" height="17" uuid="c1ba7706-e259-4191-a2e6-088f18b4744f"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[PRIMER KOPERASI KARTIKA]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="98" y="64" width="378" height="10" uuid="8d64f6bf-72f8-4896-a32b-57508e70ad71"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Alamat: Jln. Gudang Utara Nomor 1 Telepon 022. 4203036 Bandung]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="98" y="55" width="378" height="10" uuid="31fda03c-0044-494a-827a-d276f038a098"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[N.P.W.P. 01.422.163.4.423.000]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="2" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="183" splitType="Stretch">
+			<staticText>
+				<reportElement x="18" y="45" width="50" height="11" uuid="f9a19e5a-6b22-44b4-b00a-faeb4347c253"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<text><![CDATA[Perihal	:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="18" y="35" width="50" height="11" uuid="5420dd98-753e-47cf-a6fb-469998b87976"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<text><![CDATA[Lampiran	:]]></text>
+			</staticText>
+			<line>
+				<reportElement x="68" y="92" width="123" height="1" uuid="1d73e576-34f9-4194-90f4-209f673b6f48"/>
+			</line>
+			<staticText>
+				<reportElement x="18" y="15" width="50" height="11" uuid="96e4c5cb-f2ae-4efc-82ed-2c1da47105b7"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<text><![CDATA[Nomor	:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="365" y="104" width="41" height="13" uuid="de96bfe9-11a9-40f3-a85f-d594284f2989"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<text><![CDATA[Kepada]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="345" y="116" width="21" height="13" uuid="d7094da9-27dd-4f4a-8ad5-d415ecedfff2"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<text><![CDATA[Yth.]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="67" y="15" width="124" height="11" uuid="ad7b4efb-a519-4eca-8ba1-3eb13cccb2af"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{suratkirim_nomorsk}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="67" y="35" width="124" height="11" uuid="222b4751-40fa-4c45-aec5-c1aab081f232"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{suratkirim_lampiransk}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="67" y="45" width="124" height="46" uuid="bb2d363c-8c59-44dd-9e16-b689417ed8a2"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{suratkirim_perihalsk}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="348" y="1" width="111" height="13" uuid="71171111-f78c-4f9d-8b51-134663a05691"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{suratkirim_tetask}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="365" y="116" width="111" height="67" uuid="19fc7084-e5bf-494f-903f-12d51e72d2b8"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{suratkirim_kpadask}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="18" y="25" width="50" height="11" uuid="534075be-56ff-482b-9047-a4505280a1ee"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<text><![CDATA[Klasifikasi	:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="67" y="25" width="124" height="11" uuid="c2c5836f-01f9-4202-bc9a-e76b3dd3df59"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{suratkirim_klasifikasisk}]]></textFieldExpression>
+			</textField>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="208" splitType="Stretch">
+			<staticText>
+				<reportElement x="81" y="0" width="378" height="12" uuid="4c592519-e680-4a07-adb5-9aeea636fa7c"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="8" isBold="false" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[PENGIRIMAN BELANJA]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="81" y="11" width="378" height="11" uuid="3cc54144-6f28-4926-9122-d615fb862651"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{suratkirim_judulsk}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="87" y="58" width="112" height="20" uuid="6fd7258f-81c2-4295-8468-b2b66881f901"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tblsuratkirim_namabarangsk}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="198" y="58" width="85" height="20" uuid="14f68f5b-8969-4281-9d59-d0825a65a26c"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tblsuratkirim_bnyaknyask}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="282" y="58" width="69" height="20" uuid="bce021f9-ab51-468a-99b5-ce5ac1ea7b23"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tblsuratkirim_satuansk}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="350" y="58" width="104" height="20" uuid="bc494cd3-5b68-4fb4-b0b5-a04eff40489f"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tblsuratkirim_ketsk}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="87" y="39" width="112" height="20" uuid="00fe840b-aee4-4acb-9cf6-4beab3c973ac"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<text><![CDATA[NAMA BARANG]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="198" y="39" width="85" height="20" uuid="4bd64d93-e68f-4661-afc3-e515a8baf72e"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<text><![CDATA[BANYAKNYA]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="282" y="39" width="69" height="20" uuid="e25ade3b-12d3-40ed-b675-a25f3b911450"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<text><![CDATA[SATUAN]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="350" y="39" width="104" height="20" uuid="a6b6ad9b-b62b-42d7-b1cb-61d19f4aead4"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<text><![CDATA[KETERANGAN]]></text>
+			</staticText>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="142" splitType="Stretch">
+			<staticText>
+				<reportElement x="51" y="12" width="118" height="13" uuid="d1e8c7b3-d91e-4bba-802e-ce732a483b95"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<text><![CDATA[Penerima,]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="389" y="12" width="118" height="13" uuid="437630f8-0cca-4070-884a-a97ffec29ede"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<text><![CDATA[Ketua,]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="389" y="0" width="118" height="13" uuid="b19208be-2c2f-4a9f-88d8-aec4c0e354ff"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<text><![CDATA[a.n. Pengurus Primer Koperasi ]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="389" y="93" width="118" height="20" uuid="4e5790f4-2391-49ce-a771-fea521744bfb"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{suratkirim_namesk2}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="389" y="112" width="118" height="20" uuid="2b0345ff-e803-40ff-83c9-8cf71898f0b5"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{suratkirim_pktnrpsk2}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="51" y="93" width="118" height="20" uuid="db4404c2-833d-4fb9-9cb9-6144774d3ba6"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{suratkirim_namesk1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="51" y="112" width="118" height="20" uuid="ec05423a-fb06-4eba-aca5-a3ba22d191af"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{suratkirim_pktnrpsk1}]]></textFieldExpression>
+			</textField>
+		</band>
+	</columnFooter>
+	<pageFooter>
+		<band height="6" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="3" splitType="Stretch"/>
+	</summary>
+</jasperReport>

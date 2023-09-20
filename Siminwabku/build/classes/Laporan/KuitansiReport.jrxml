@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="null" language="groovy" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="f4884904-edbc-4045-9039-b837ae069a1e">
+	<property name="ireport.zoom" value="1.4641000000000017"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="182"/>
+	<queryString language="SQL">
+		<![CDATA[SELECT
+     kuitansi.`takui` AS kuitansi_takui,
+     kuitansi.`nobku` AS kuitansi_nobku,
+     kuitansi.`maku1` AS kuitansi_maku1,
+     kuitansi.`maku2` AS kuitansi_maku2,
+     kuitansi.`tdku` AS kuitansi_tdku,
+     kuitansi.`uku1` AS kuitansi_uku1,
+     kuitansi.`uku2` AS kuitansi_uku2,
+     kuitansi.`pbku` AS kuitansi_pbku,
+     kuitansi.`ppk` AS kuitansi_ppk,
+     kuitansi.`kakopku` AS kuitansi_kakopku,
+     kuitansi.`namappk` AS kuitansi_namappk,
+     kuitansi.`pktnrpppk` AS kuitansi_pktnrpppk,
+     kuitansi.`namakakop` AS kuitansi_namakakop,
+     kuitansi.`pktnrpkakop` AS kuitansi_pktnrpkakop,
+     kuitansi.`namapdtr` AS kuitansi_namapdtr,
+     kuitansi.`pktnrppdtr` AS kuitansi_pktnrppdtr
+FROM
+     `kuitansi` kuitansi]]>
+	</queryString>
+	<field name="kuitansi_takui" class="java.sql.Date"/>
+	<field name="kuitansi_nobku" class="java.lang.String"/>
+	<field name="kuitansi_maku1" class="java.lang.String"/>
+	<field name="kuitansi_maku2" class="java.lang.String"/>
+	<field name="kuitansi_tdku" class="java.lang.String"/>
+	<field name="kuitansi_uku1" class="java.lang.String"/>
+	<field name="kuitansi_uku2" class="java.lang.String"/>
+	<field name="kuitansi_pbku" class="java.lang.String"/>
+	<field name="kuitansi_ppk" class="java.lang.String"/>
+	<field name="kuitansi_kakopku" class="java.lang.String"/>
+	<field name="kuitansi_namappk" class="java.lang.String"/>
+	<field name="kuitansi_pktnrpppk" class="java.lang.String"/>
+	<field name="kuitansi_namakakop" class="java.lang.String"/>
+	<field name="kuitansi_pktnrpkakop" class="java.lang.String"/>
+	<field name="kuitansi_namapdtr" class="java.lang.String"/>
+	<field name="kuitansi_pktnrppdtr" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="156" splitType="Stretch">
+			<staticText>
+				<reportElement x="387" y="7" width="43" height="15" uuid="dee6d753-992f-42bb-9820-a395f4a29671"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[Lembar :]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="343" y="106" width="87" height="15" uuid="18f8d017-e7c8-4740-b788-4cd696b0fd77"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[Nomor Bukti 	:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="343" y="121" width="87" height="15" uuid="53d0b323-ec40-4855-838b-0574708e9569"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[Mata Anggaran 	:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="343" y="91" width="87" height="15" uuid="30341601-3988-413f-b834-d7e21ee6b258"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[TA 		:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="429" y="91" width="113" height="15" uuid="97f748d4-7013-459e-881e-34a48597b372"/>
+				<textFieldExpression><![CDATA[$F{kuitansi_takui}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="429" y="106" width="113" height="15" uuid="295b4e00-d144-4e9a-8174-3639d849110b"/>
+				<textFieldExpression><![CDATA[$F{kuitansi_nobku}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="429" y="121" width="113" height="15" uuid="b9934431-abbe-4649-b39d-c024d2a461d4"/>
+				<textFieldExpression><![CDATA[$F{kuitansi_maku1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="430" y="135" width="112" height="14" uuid="8c2cbaf7-e288-4da3-bd10-63b5bc674b21"/>
+				<textFieldExpression><![CDATA[$F{kuitansi_maku2}]]></textFieldExpression>
+			</textField>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="11" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="25" splitType="Stretch">
+			<staticText>
+				<reportElement x="194" y="4" width="163" height="15" uuid="ce47d701-500f-4f15-93b9-03e0972f0916"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[KUITANSI/BUKTI PEMBAYARAN]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="141" splitType="Stretch">
+			<staticText>
+				<reportElement x="35" y="28" width="127" height="13" uuid="e5248787-6d00-4e60-9d54-91ac8850e194"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[Sudah terima dari		:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="35" y="71" width="127" height="13" uuid="69de5d06-3941-4dd4-8bf3-2278268820d7"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[Jumlah Uang		:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="35" y="83" width="127" height="13" uuid="293319de-bfd5-49ee-869e-b665267ce363"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[Terbilang		:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="35" y="95" width="127" height="13" uuid="2b07d11f-212f-4afd-8fb5-56c79878bb87"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[Untuk Pembayaran	:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="161" y="28" width="269" height="44" uuid="47ef8f48-9e9d-440e-81fb-debf4a51cad7"/>
+				<textElement textAlignment="Justified"/>
+				<textFieldExpression><![CDATA[$F{kuitansi_tdku}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="161" y="71" width="269" height="13" uuid="ec71ba62-083d-4df8-a9b8-fada32a2ebef"/>
+				<textElement textAlignment="Justified"/>
+				<textFieldExpression><![CDATA[$F{kuitansi_uku1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="161" y="83" width="269" height="13" uuid="12ccc8e0-34ae-45db-92c2-586c80b9ad7c"/>
+				<textElement textAlignment="Justified"/>
+				<textFieldExpression><![CDATA[$F{kuitansi_uku2}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="161" y="95" width="269" height="43" uuid="d871e2c0-aee1-412a-8d1d-0a8c252322e1"/>
+				<textElement textAlignment="Justified"/>
+				<textFieldExpression><![CDATA[$F{kuitansi_pbku}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="313" splitType="Stretch">
+			<staticText>
+				<reportElement x="35" y="11" width="159" height="13" uuid="6d83db41-633c-4cc4-97fc-91043997ef25"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[a.n. Kuasa Pengguna Anggaran]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="35" y="118" width="159" height="13" uuid="11e21f00-fa2d-4f23-ac7f-21e65988f214"/>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{kuitansi_namappk}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="35" y="130" width="159" height="15" uuid="29ca22d5-b0cf-4ffd-b55b-d7e42671fcb8"/>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{kuitansi_pktnrpppk}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="343" y="11" width="177" height="13" uuid="80937878-f4fb-4149-8b29-0dbcda784f08"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[Bandung,                                       20.....]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="35" y="23" width="159" height="13" uuid="2a56b6bc-26bc-430e-b25a-11e5d0f799f9"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[Pejabat Pembuat Komitmen,]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="343" y="23" width="177" height="13" uuid="477baed1-8d33-4702-baef-0aa9da3381e2"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[Ketua Primkop Kartika Vijaya Kusuma,]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="343" y="118" width="177" height="13" uuid="579d53f1-d241-49de-b8b9-20944508d7d2"/>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{kuitansi_namakakop}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="343" y="130" width="177" height="15" uuid="223c2542-06a0-4c4a-9c42-985c787a82dd"/>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{kuitansi_pktnrpkakop}]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="0" y="152" width="555" height="1" uuid="788c6a72-9b74-45fe-8cd9-63442624216d"/>
+			</line>
+			<staticText>
+				<reportElement x="35" y="174" width="159" height="13" uuid="668c28b9-d4fb-4e20-95d4-6d58bba37e3b"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[Pejabat yang bertanggungjawab]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="35" y="186" width="159" height="13" uuid="c97bd804-5e1c-419b-bcd0-c49b188eeaee"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[Pembuat Daftar,]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="35" y="162" width="395" height="13" uuid="fd4db3b3-079a-4ddb-b371-33c66e6ef8cd"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="Arial" isStrikeThrough="false"/>
+				</textElement>
+				<text><![CDATA[Barang/pekerjaan tersebut  telah diterima/diselesaikan dengan lengkap dan baik.]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="35" y="275" width="159" height="15" uuid="d9ccb268-f46b-497e-9d53-9714f64454f8"/>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{kuitansi_namapdtr}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="35" y="289" width="159" height="14" uuid="3d462b8a-5ef7-434a-8aa1-e9c5ce823dee"/>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{kuitansi_pktnrppdtr}]]></textFieldExpression>
+			</textField>
+		</band>
+	</columnFooter>
+	<pageFooter>
+		<band height="20" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="15" splitType="Stretch"/>
+	</summary>
+</jasperReport>

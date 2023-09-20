@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>C:\Users\dimas\Documents\NetBeansProjects\Siminwabku\dist\Siminwabku.jar</jar>
+  <outfile>C:\Users\dimas\Documents\NetBeansProjects\siminwabku.exe</outfile>
+  <errTitle></errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl></downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>true</stayAlive>
+  <restartOnCrash>false</restartOnCrash>
+  <manifest></manifest>
+  <icon>C:\Users\dimas\Downloads\Direktorat_Ajudan_Jenderal_TNI_Angkatan_Darat.ico</icon>
+  <singleInstance>
+    <mutexName>Siminwabku</mutexName>
+    <windowTitle>Siminwabku</windowTitle>
+  </singleInstance>
+  <classPath>
+    <mainClass>Home</mainClass>
+    <cp>lib/commons-beanutils-1.8.2.jar</cp>
+    <cp>lib/commons-collections-3.2.1.jar</cp>
+    <cp>lib/commons-digester-2.1.jar</cp>
+    <cp>lib/commons-logging-1.1.jar</cp>
+    <cp>lib/groovy-all-2.0.1.jar</cp>
+    <cp>lib/iText-2.1.7.js2.jar</cp>
+    <cp>lib/jasperreports-5.6.0.jar</cp>
+    <cp>lib/org-jdesktop-layout.jar</cp>
+    <cp>lib/mysql-connector-j-8.0.31.jar</cp>
+    <cp>lib/AbsoluteLayout.jar</cp>
+  </classPath>
+  <jre>
+    <path>%JAVA_HOME%;%PATH%</path>
+    <requiresJdk>false</requiresJdk>
+    <requires64Bit>false</requires64Bit>
+    <minVersion></minVersion>
+    <maxVersion></maxVersion>
+  </jre>
+</launch4jConfig>

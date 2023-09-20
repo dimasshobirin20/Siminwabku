@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="report name" pageWidth="595" pageHeight="842" columnWidth="535" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="53403134-525d-4698-b158-bc806b9ff2ae">
+	<property name="ireport.zoom" value="1.6105100000000012"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="47"/>
+	<queryString>
+		<![CDATA[SELECT
+     tblsuratjalan.`namabarangsj` AS tblsuratjalan_namabarangsj,
+     tblsuratjalan.`bnyaknyasj` AS tblsuratjalan_bnyaknyasj,
+     tblsuratjalan.`satuansj` AS tblsuratjalan_satuansj,
+     tblsuratjalan.`ketsj` AS tblsuratjalan_ketsj,
+     suratjalan.`kpadasj` AS suratjalan_kpadasj,
+     suratjalan.`judulsj` AS suratjalan_judulsj,
+     suratjalan.`namesj1` AS suratjalan_namesj1,
+     suratjalan.`namesj2` AS suratjalan_namesj2,
+     suratjalan.`pktnrpsj1` AS suratjalan_pktnrpsj1,
+     suratjalan.`pktnrpsj2` AS suratjalan_pktnrpsj2
+FROM
+     `tblsuratjalan` tblsuratjalan,
+     `suratjalan` suratjalan]]>
+	</queryString>
+	<field name="tblsuratjalan_namabarangsj" class="java.lang.String"/>
+	<field name="tblsuratjalan_bnyaknyasj" class="java.lang.Integer"/>
+	<field name="tblsuratjalan_satuansj" class="java.lang.String"/>
+	<field name="tblsuratjalan_ketsj" class="java.lang.String"/>
+	<field name="suratjalan_kpadasj" class="java.lang.String"/>
+	<field name="suratjalan_judulsj" class="java.lang.String"/>
+	<field name="suratjalan_namesj1" class="java.lang.String"/>
+	<field name="suratjalan_namesj2" class="java.lang.String"/>
+	<field name="suratjalan_pktnrpsj1" class="java.lang.String"/>
+	<field name="suratjalan_pktnrpsj2" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="81" splitType="Stretch">
+			<staticText>
+				<reportElement x="109" y="4" width="395" height="17" uuid="ccf8ab1f-59da-4458-aaa5-ea75eb3658cd"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[PRIMER KOPERASI KARTIKA]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="109" y="20" width="395" height="16" uuid="a0bd1add-4d21-49c1-b234-b7c795d1e6e6"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[VIJAYA KUSUMA]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="109" y="35" width="395" height="11" uuid="53d5cab8-937b-4497-85d6-b0140bcb8200"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Hak Badan Hukum Nomor 248/BH/IX-19/12-67 Tanggal 15 Desember 1968]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="109" y="45" width="395" height="10" uuid="9d3e8ded-1123-4f65-bc59-420cd06a0d45"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Pengesahan PAD Nomor 15/PAD/XIII.23/VII/KUKM dan Perindag/2011 Tanggal 20 Juli 2011]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="109" y="54" width="395" height="10" uuid="9b274fcf-95dd-4b0f-ac43-9d8cb2e403ad"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[N.P.W.P. 01.422.163.4.423.000]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="109" y="63" width="395" height="10" uuid="7a227798-08a1-43d2-9bc3-6f533139898f"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Alamat: Jln. Gudang Utara Nomor 1 Telepon 022. 4203036 Bandung]]></text>
+			</staticText>
+			<line>
+				<reportElement x="0" y="78" width="555" height="1" uuid="a2981ca8-ee8a-4382-a922-48b63f0ac8e2"/>
+			</line>
+			<image>
+				<reportElement x="47" y="0" width="62" height="78" uuid="aefab5d2-a0cc-4ec0-b1e5-f7e911365f8a"/>
+				<imageExpression><![CDATA["C:\\Users\\THINKBOOK\\Documents\\NetBeansProjects\\Siminwabku\\src\\Background\\logo-koperasi-kartika-1.png"]]></imageExpression>
+			</image>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="2" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="132" splitType="Stretch">
+			<staticText>
+				<reportElement x="48" y="0" width="456" height="16" uuid="258c934d-1c2a-48f6-8630-27a71f4d3ff2"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="10" isBold="true" isUnderline="true"/>
+				</textElement>
+				<text><![CDATA[SURAT JALAN BARANG]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="385" y="49" width="41" height="13" uuid="c8d74e79-04fd-4e6c-b4e0-45f62e36d6c5"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<text><![CDATA[Kepada]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="365" y="61" width="21" height="13" uuid="dee750ec-a076-4c1a-be17-2a0758b58c4e"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<text><![CDATA[Yth.]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="385" y="61" width="119" height="71" uuid="65e2b357-37c5-4d15-9abc-0483bec51294"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{suratjalan_kpadasj}]]></textFieldExpression>
+			</textField>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="231" splitType="Stretch">
+			<staticText>
+				<reportElement x="89" y="0" width="378" height="13" uuid="4872fd9b-9bc8-4868-9ee9-ada00f3b6e02"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="8" isBold="false" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[PENGIRIMAN BELANJA]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="89" y="12" width="378" height="11" uuid="888a932f-1606-45c4-948b-7b6a3066eeff"/>
+				<textElement textAlignment="Center">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{suratjalan_judulsj}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="55" y="53" width="138" height="20" uuid="2e76288d-d943-4dc2-ae18-52973f6253be"/>
+				<box>
+					<pen lineWidth="0.25"/>
+					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tblsuratjalan_namabarangsj}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="192" y="53" width="84" height="20" uuid="ac559ad3-cbe5-4675-84d2-cb951194502e"/>
+				<box>
+					<pen lineWidth="0.25"/>
+					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tblsuratjalan_bnyaknyasj}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="276" y="53" width="89" height="20" uuid="1d0e3194-1f73-4bc6-a27e-046d9e9893b0"/>
+				<box>
+					<pen lineWidth="0.25"/>
+					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tblsuratjalan_satuansj}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="365" y="53" width="138" height="20" uuid="6ff3950c-ff7b-4eb5-bf3c-60df31a1ed4f"/>
+				<box>
+					<pen lineWidth="0.25"/>
+					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tblsuratjalan_ketsj}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="55" y="34" width="138" height="20" uuid="fc19fbec-4adc-4675-9652-2758a625da99"/>
+				<box>
+					<pen lineWidth="0.25"/>
+					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[NAMA BARANG]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="192" y="34" width="84" height="20" uuid="3bf77694-ea85-49a6-977b-16eab541c508"/>
+				<box>
+					<pen lineWidth="0.25"/>
+					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[BANYAKNYA]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="276" y="34" width="89" height="20" uuid="39640d06-7c01-4666-aba9-4f4eb91d7f46"/>
+				<box>
+					<pen lineWidth="0.25"/>
+					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[SATUAN]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="365" y="34" width="138" height="20" uuid="79896d63-3d49-47be-9281-d1700cb668e7"/>
+				<box>
+					<pen lineWidth="0.25"/>
+					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[KETERANGAN]]></text>
+			</staticText>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="154" splitType="Stretch">
+			<staticText>
+				<reportElement x="48" y="12" width="118" height="13" uuid="d3f4a591-ff24-4317-8f39-27a9d4381eb7"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<text><![CDATA[Penerima,]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="386" y="12" width="118" height="13" uuid="8c214200-3186-4157-b348-f7e00c744191"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<text><![CDATA[Ketua,]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="386" y="0" width="118" height="13" uuid="5fcd8725-b8cf-4dd8-a720-bfe4aea36ba9"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<text><![CDATA[a.n. Pengurus Primer Koperasi ]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="47" y="108" width="118" height="20" uuid="cc99896a-33ba-4175-b538-52a5d03bc793"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{suratjalan_namesj1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="47" y="127" width="118" height="20" uuid="5412a1ad-e2af-4754-88ea-655df056242a"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{suratjalan_pktnrpsj1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="386" y="108" width="118" height="20" uuid="af287a7a-1127-4edd-bc67-856223af58a2"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{suratjalan_namesj2}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="386" y="127" width="118" height="20" uuid="af9156c2-f266-4206-80ea-4dd4f6ae1419"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{suratjalan_pktnrpsj2}]]></textFieldExpression>
+			</textField>
+		</band>
+	</columnFooter>
+	<pageFooter>
+		<band height="8" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="9" splitType="Stretch"/>
+	</summary>
+</jasperReport>
